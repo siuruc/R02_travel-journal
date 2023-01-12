@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+
+.navbar {
+    background-color: #F55A5A;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-globe {
+    color: #fff;
+    padding-right:8px;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;  
+    color: #FFFFFF;
+}
+
+.main {
+    margin: 50px
+}
+
+.card {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: #f5f5f5 solid 1px;
+    gap: 20px;
+}
+
+.card:last-child {
+    border-bottom: none;
+}
+
+.locImg {
+    border-radius: 5px;
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-location {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.fa-map-marker {
+    color: #F55A5A;
+    padding-right: 5px
+}
+
+.country {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    padding-right: 5px;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+.date {
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+
